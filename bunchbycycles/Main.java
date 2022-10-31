@@ -13,10 +13,10 @@ public class Main {
         if(cycles[i]<410){
             counts.lowCount=counts.lowCount+1;
         }
-        else if(cycles[i]>410 && cycles[i]<909){
+        else if(cycles[i]>410 && cycles[i]<949){
             counts.mediumCount=counts.mediumCount+1;
         }
-        else if(cycles[i]>910){
+        else if(cycles[i]>948){
             counts.highCount=counts.highCount+1;
 
         }
